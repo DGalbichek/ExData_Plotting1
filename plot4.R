@@ -15,6 +15,7 @@ data2$dt <- as.POSIXct(data2$dt, format="%d/%m/%Y-%H:%M:%S")
 
 #plot
 par(mfrow = c(2, 2))
+par(mar=c(1.5,1.5,1,1))
 
 # 1
 plot(data2$dt, data2$Global_active_power, type="l",
